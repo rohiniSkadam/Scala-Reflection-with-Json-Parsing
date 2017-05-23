@@ -4,19 +4,32 @@
 		{
 			"classType" : "controllers.Student",
 			"params" :
-			{
-					"id": "101",
+			[
+				{
+					"id": "11",
 					"name" : "John",
 					"address" : "Mumbai"
-			}
+				},
+				{
+					"id": "12",
+					"name" : "Roy",
+					"address" : "Mumbai"
+				}
+			]
 		},
 		{
 			"classType" : "controllers.Teacher",
 			"params" :
-			{
-				"name" : "Mike",
-			   	"address" : "Pune"
-			}
+			[
+				{
+					"name" : "Mike",
+			   		"address" : "Pune"
+				},
+				{
+					"name" : "Riya",
+			   		"address" : "Pune"
+				}
+			]
 		}
 	]
 }
